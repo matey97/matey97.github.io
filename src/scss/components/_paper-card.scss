@@ -1,0 +1,72 @@
+$conference-color: #ff6464;
+$journal-color: #f5d55f;
+
+.paper-list {
+    list-style-type: none;
+    width: fit-content;
+}
+
+.paper {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $purple;
+    background-color: white;
+    margin-bottom: 2em;
+    padding: 0em 1em 1em 1em;
+}
+
+.paper-type {
+    position: relative;
+    top: -1em;
+    left: 1em;
+    width: fit-content;
+    padding: 2px 4px 2px 4px;
+    font-weight: bold;
+    color: black;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $purple;
+
+    &.conference {
+        background-color: $conference-color;
+        &:after {
+            content: "Conference";
+        }
+    }
+
+    &.journal {
+        background-color: $journal-color;
+        &:after {
+            content: "Journal";
+        }
+    }
+}
+
+.doi {
+    width: 30px;
+}
+
+$badge-margin: 4px;
+
+.rank-a {
+    margin-left: $badge-margin;
+    margin-right: $badge-margin;
+    background-color: $green;
+}
+
+.rank-b {
+    margin-left: $badge-margin;
+    margin-right: $badge-margin;
+    background-color: $blue;
+}
+
+.rank-c {
+    margin-left: $badge-margin;
+    margin-right: $badge-margin;
+    background-color: $yellow;
+}
+
+
