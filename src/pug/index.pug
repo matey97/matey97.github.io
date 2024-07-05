@@ -15,6 +15,9 @@ html(lang='en')
         // Font Awesome icons (free version)
         script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
 
+        // Plumx
+        script(src="https://cdn.plu.mx/widget-popup.js")
+
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
@@ -194,103 +197,130 @@ html(lang='en')
                     ul.paper-list
                         li
                             div.paper
-                                span.paper-type.conference
-                                h4
-                                    | Analysis and impact of training set size in cross-subject human activity recognition
-                                    span.badge.rank-c CORE C
-                                    a(href="https://doi.org/10.1007/978-3-031-49018-7_28", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Miguel Matey-Sanz, Joaquín Torres-Sospedra, Alberto González-Pérez, Sven Casteleyn, Carlos Granell
-                                h5.light
-                                    i Iberoamerican Congress on Pattern Recognition, CIARP 2023
+                                div.paper-info
+                                    span.paper-type.conference
+                                    h4
+                                        | Analysis and impact of training set size in cross-subject human activity recognition
+                                        span.badge.rank-c CORE C
+                                        a(href="https://doi.org/10.1007/978-3-031-49018-7_28", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Miguel Matey-Sanz, Joaquín Torres-Sospedra, Alberto González-Pérez, Sven Casteleyn, Carlos Granell
+                                    h5.light
+                                        i Iberoamerican Congress on Pattern Recognition, CIARP 2023
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1007/978-3-031-49018-7_28").plumx-plum-print-popup.plum-bigben-theme
                         li
                             div.paper
-                                span.paper-type.journal
-                                h4
-                                    | Dataset of inertial measurements of smartphones and smartwatches for human activity recognition
-                                    span.badge.rank-c JCR - IF 1.2
-                                    a(href="https://doi.org/10.1016/j.dib.2023.109809", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Miguel Matey-Sanz, Sven Casteleyn, Carlos Granell
-                                h5.light
-                                    i Data in Brief, 2023
+                                div.paper-info
+                                    span.paper-type.journal
+                                    h4
+                                        | Dataset of inertial measurements of smartphones and smartwatches for human activity recognition
+                                        span.badge.rank-c JCR2022 Q3 - IF 1.2
+                                        a(href="https://doi.org/10.1016/j.dib.2023.109809", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Miguel Matey-Sanz, Sven Casteleyn, Carlos Granell
+                                    h5.light
+                                        i Data in Brief, 2023
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1016/j.dib.2023.109809").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.conference
-                                h4
-                                    | Temporal stability on human activity recognition based on Wi-Fi CSI
-                                    span.badge.rank-c CORE C
-                                    a(href="https://doi.org/10.1109/IPIN57070.2023.10332214", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Miguel Matey-Sanz, Joaquín Torres-Sospedra, Adriano Moreira
-                                h5.light
-                                    i International Conference on Indoor Positioning and Indoor Navigation, IPIN 2023
+                                div.paper-info
+                                    span.paper-type.conference
+                                    h4
+                                        | Temporal stability on human activity recognition based on Wi-Fi CSI
+                                        span.badge.rank-c CORE C
+                                        a(href="https://doi.org/10.1109/IPIN57070.2023.10332214", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Miguel Matey-Sanz, Joaquín Torres-Sospedra, Adriano Moreira
+                                    h5.light
+                                        i International Conference on Indoor Positioning and Indoor Navigation, IPIN 2023
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1109/IPIN57070.2023.10332214").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.journal
-                                h4
-                                    | AwarNS: A framework for developing context-aware reactive mobile applications for health and mental health
-                                    span.badge.rank-b JCR Q2 - IF 4.5
-                                    a(href="https://doi.org/10.1016/j.jbi.2023.104359", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Alberto González-Pérez, Miguel Matey-Sanz, Carlos Granell, Laura Díaz-Sanahuja, Juana Bretón-López, Sven Casteleyn
-                                h5.light
-                                    i Journal of Biomedical Informatics, 2023
+                                div.paper-info
+                                    span.paper-type.journal
+                                    h4
+                                        | AwarNS: A framework for developing context-aware reactive mobile applications for health and mental health
+                                        span.badge.rank-b JCR2023 Q2 - IF 4
+                                        a(href="https://doi.org/10.1016/j.jbi.2023.104359", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Alberto González-Pérez, Miguel Matey-Sanz, Carlos Granell, Laura Díaz-Sanahuja, Juana Bretón-López, Sven Casteleyn
+                                    h5.light
+                                        i Journal of Biomedical Informatics, 2023
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1016/j.dib.2023.109809").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.conference
-                                h4
-                                    | Instrumented timed up and go test using inertial sensors from consumer wearable devices
-                                    span.badge.rank-b CORE B
-                                    a(href="https://doi.org/10.1007/978-3-031-09342-5_14", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Miguel Matey-Sanz, Alberto González-Pérez, Sven Casteleyn, Carlos Granell
-                                h5.light
-                                    i International Conference on Artificial Intelligence in Medicine, AIME 2022
+                                div.paper-info
+                                    span.paper-type.conference
+                                    h4
+                                        | Instrumented timed up and go test using inertial sensors from consumer wearable devices
+                                        span.badge.rank-b CORE B
+                                        a(href="https://doi.org/10.1007/978-3-031-09342-5_14", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Miguel Matey-Sanz, Alberto González-Pérez, Sven Casteleyn, Carlos Granell
+                                    h5.light
+                                        i International Conference on Artificial Intelligence in Medicine, AIME 2022
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1007/978-3-031-09342-5_14").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.journal
-                                h4
-                                    | Using mobile devices as scientific measurement instruments: reliable android task scheduling
-                                    span.badge.rank-b JCR Q2 - IF 4.3
-                                    a(href="https://doi.org/10.1016/j.pmcj.2022.101550", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Alberto González-Pérez, Miguel Matey-Sanz, Carlos Granell, Sven Casteleyn
-                                h5.light
-                                    i Pervasive and Mobile Computing, 2022
+                                div.paper-info
+                                    span.paper-type.journal
+                                    h4
+                                        | Using mobile devices as scientific measurement instruments: reliable android task scheduling
+                                        span.badge.rank-b JCR2022 Q2 - IF 4.3
+                                        a(href="https://doi.org/10.1016/j.pmcj.2022.101550", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Alberto González-Pérez, Miguel Matey-Sanz, Carlos Granell, Sven Casteleyn
+                                    h5.light
+                                        i Pervasive and Mobile Computing, 2022
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1016/j.pmcj.2022.101550").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.journal
-                                h4
-                                    | A comprehensive and reproducible comparison of clustering and optimization rules in wi-fi fingerprinting
-                                    span.badge.rank-a JCR Q1 - IF 7.9
-                                    a(href="https://doi.org/10.1109/TMC.2020.3017176", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Joaquín Torres-Sospedra, Philipp Richter, Adriano Moreira, Germán M Mendoza-Silva, Elena Simona Lohan, Sergio Trilles, Miguel Matey-Sanz, Joaquín Huerta
-                                h5.light
-                                    i IEEE Transactions on Mobile Computing, 2020
+                                div.paper-info
+                                    span.paper-type.journal
+                                    h4
+                                        | A comprehensive and reproducible comparison of clustering and optimization rules in wi-fi fingerprinting
+                                        span.badge.rank-a JCR2022 Q1 - IF 7.9
+                                        a(href="https://doi.org/10.1109/TMC.2020.3017176", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Joaquín Torres-Sospedra, Philipp Richter, Adriano Moreira, Germán M Mendoza-Silva, Elena Simona Lohan, Sergio Trilles, Miguel Matey-Sanz, Joaquín Huerta
+                                    h5.light
+                                        i IEEE Transactions on Mobile Computing, 2020
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1109/TMC.2020.3017176").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.conference
-                                h4
-                                    | Exploiting different combinations of complementary sensor’s data for fingerprint-based indoor positioning in industrial environments
-                                    span.badge.rank-c CORE C
-                                    a(href="https://doi.org/10.1109/IPIN.2019.8911758", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Joaquín Torres-Sospedra, Adriano Moreira, Germán M Mendoza-Silva, Maria João Nicolau, Miguel Matey-Sanz, Ivo Silva, Joaquín Huerta, Cristiano Pendão
-                                h5.light
-                                    i International Conference on Indoor Positioning and Indoor Navigation, IPIN 2019
+                                div.paper-info
+                                    span.paper-type.conference
+                                    h4
+                                        | Exploiting different combinations of complementary sensor’s data for fingerprint-based indoor positioning in industrial environments
+                                        span.badge.rank-c CORE C
+                                        a(href="https://doi.org/10.1109/IPIN.2019.8911758", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Joaquín Torres-Sospedra, Adriano Moreira, Germán M Mendoza-Silva, Maria João Nicolau, Miguel Matey-Sanz, Ivo Silva, Joaquín Huerta, Cristiano Pendão
+                                    h5.light
+                                        i International Conference on Indoor Positioning and Indoor Navigation, IPIN 2019
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.1109/IPIN.2019.8911758").plumx-plum-print-popup
                         li
                             div.paper
-                                span.paper-type.journal
-                                h4
-                                    | BLE RSS measurements dataset for research on accurate indoor positioning
-                                    span.badge.rank-b JCR Q2 - IF 2.6
-                                    a(href="https://doi.org/10.3390/data4010012", target="_blank")
-                                        img.doi(src="assets/img/doi.png")
-                                h5.light Germán Martín Mendoza-Silva, Miguel Matey-Sanz, Joaquín Torres-Sospedra, Joaquín Huerta
-                                h5.light
-                                    i MDPI Data, 2019
+                                div.paper-info
+                                    span.paper-type.journal
+                                    h4
+                                        | BLE RSS measurements dataset for research on accurate indoor positioning
+                                        span.badge.rank-b SJR2019 Q2 - IF 2.6
+                                        a(href="https://doi.org/10.3390/data4010012", target="_blank")
+                                            img.doi(src="assets/img/doi.png")
+                                    h5.light Germán Martín Mendoza-Silva, Miguel Matey-Sanz, Joaquín Torres-Sospedra, Joaquín Huerta
+                                    h5.light
+                                        i MDPI Data, 2019
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=10.3390/data4010012").plumx-plum-print-popup
 
             hr.m-0
 

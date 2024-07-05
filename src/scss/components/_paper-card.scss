@@ -7,6 +7,7 @@ $journal-color: #f5d55f;
 }
 
 .paper {
+    display: flex;
     border-radius: 5px;
     border-style: solid;
     border-width: 2px;
@@ -43,6 +44,17 @@ $journal-color: #f5d55f;
             content: "Journal";
         }
     }
+}
+
+.paper-info {
+    flex: 90%;
+}
+
+.paper-metrics {
+    display: flex;
+    flex: 10%;
+    justify-content: center;
+    align-items: center;
 }
 
 .doi {
