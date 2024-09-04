@@ -51,6 +51,7 @@ $journal-color: #f5d55f;
 }
 
 .paper-metrics {
+    margin-top: 1em;
     display: flex;
     flex: 10%;
     justify-content: center;
@@ -59,6 +60,11 @@ $journal-color: #f5d55f;
 
 .doi {
     width: 30px;
+}
+
+.pdf {
+    width: 30px;
+    margin-left: 4px;
 }
 
 $badge-margin: 4px;
