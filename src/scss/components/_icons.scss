@@ -23,7 +23,19 @@
         }
 
         &:hover {
-            background-color: $primary;
+            &#github{
+                background-color: $black;
+            }
+            &#linkedin{
+                background-color: #0072B1;
+            }
+            &#orcid{
+                background-color: #a3ce49;
+            }
+            &#scholar{
+                background-color: #0076e4;
+            }
+
             transform: scale(1.2);
         }
     }
