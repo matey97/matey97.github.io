@@ -224,7 +224,7 @@ html(lang='en')
             hr.m-0
 
             //Publications
-            section#publications.resume-section
+            section#publications.resume-section.full
                 .resume-section-content
                     h2.mb-5 Publications
 
@@ -234,12 +234,43 @@ html(lang='en')
                                 div.paper-info
                                     span.paper-type.conference
                                     h4
+                                        | Comparative Analysis of Indoor Positioning Approaches with Wi-Fi RTT from Android Devices
+                                        span.badge.rank-c ICORE C
+                                        //a(href="#", target="_blank")
+                                        //    img.doi(src="assets/img/doi.png")
+                                    h5.light Miguel Matey-Sanz, Joaquín Torres-Sospedra.
+                                    h5.light
+                                        i International Conference on Indoor Positioning and Indoor Navigation, IPIN 2025
+                                        b <strong>[To be presented]</strong>
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=TBD").plumx-plum-print-popup
+                        li
+                            div.paper
+                                div.paper-info
+                                    span.paper-type.conference
+                                    h4
+                                        | Evaluating Wi-Fi Round Trip Time for Accurate Indoor Positioning with Android Smartphones
+                                        span.badge.rank-c ICORE C
+                                        //a(href="#", target="_blank")
+                                        //    img.doi(src="assets/img/doi.png")
+                                    h5.light David Pérez-Senosain, Miguel Matey-Sanz, Joaquín Torres-Sospedra.
+                                    h5.light
+                                        i International Conference on Indoor Positioning and Indoor Navigation, IPIN 2025
+                                        b <strong>[To be presented]</strong>
+                                div.paper-metrics
+                                    a(href="https://plu.mx/plum/a/?doi=TBD").plumx-plum-print-popup
+                        li
+                            div.paper
+                                div.paper-info
+                                    span.paper-type.conference
+                                    h4
                                         | Modular Fingerprinting and Deep Learning: A New Training Approach
-                                        a(href="https://doi.org/TBD", target="_blank")
-                                            img.doi(src="assets/img/doi.png")
+                                        //a(href="https://doi.org/TBD", target="_blank")
+                                        //    img.doi(src="assets/img/doi.png")
                                     h5.light Darwin Quezada-Gaibor, Miguel Matey-Sanz, Joaquín Huerta, Joaquín Torres-Sospedra
                                     h5.light
                                         i IEEE Applied Sensing Conference, APSCON 2025
+                                        b <strong>[To be published]</strong>
                                 div.paper-metrics
                                     a(href="https://plu.mx/plum/a/?doi=TBD").plumx-plum-print-popup.plum-bigben-theme
                         li
@@ -248,8 +279,8 @@ html(lang='en')
                                     span.paper-type.conference
                                     h4
                                         | Feasibility Analysis of Self-oriented BLE Anchors Powered by NEMA Motors for DoA-based Indoor Positioning
-                                        a(href="https://doi.org/TBD", target="_blank")
-                                            img.doi(src="assets/img/doi.png")
+                                        a(href="https://ieeexplore.ieee.org/abstract/document/11048828", target="_blank")
+                                            i.fas.fa-link
                                     h5.light Teodor Constantin Din, Miguel Matey-Sanz, Adrián Bautista, Sergio Trilles, Joaquín Torres-Sospedra
                                     h5.light
                                         i International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2024
@@ -437,7 +468,7 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Skills
                     .subheading.mb-3 Web development
-                    .d-flex.flex-row.align-items-center.dev-icons
+                    .d-flex.flex-row.flex-wrap.align-items-center.dev-icons
                         i.fab.fa-html5(data-toogle='tooltip', title='HTML')
                         i.fab.fa-css3-alt(data-toogle='tooltip', title='CSS')
                         i.fab.fa-angular(data-toogle='tooltip', title='Angular')
@@ -446,14 +477,14 @@ html(lang='en')
                         i.fab.fa-npm(data-toogle='tooltip', title='Node Package Manager')
                     br
                     .subheading.mb-3 Mobile development
-                    .d-flex.flex-row.align-items-center.dev-icons
+                    .d-flex.flex-row.flex-wrap.align-items-center.dev-icons
                         i.fab.fa-android(data-toogle='tooltip', title='Android')
                         i.fab.fa-java(data-toogle='tooltip', title='Java')
                         img.svg-icon(src='assets/img/kotlin.svg', data-toogle='tooltip', title='Kotlin')
                         img.svg-icon(src='assets/img/nativescript.svg', data-toogle='tooltip', title='NativeScript')
                     br
                     .subheading.mb-3 Data science & Machine learning
-                    .d-flex.flex-row.align-items-center.dev-icons
+                    .d-flex.flex-row.flex-wrap.align-items-center.dev-icons
                         i.fab.fa-python(data-toogle='tooltip', title='Python')
                         img.svg-icon(src='assets/img/numpy.svg', data-toogle='tooltip', title='Numpy')
                         img.svg-icon.large(src='assets/img/pandas.svg', data-toogle='tooltip', title='Pandas')
