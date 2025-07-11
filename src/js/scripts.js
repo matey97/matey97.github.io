@@ -103,6 +103,10 @@ function setupPaginationWithFilter(papers, sectionId, paginationId, dropdownId, 
                 ? "flex" : "none";
         });
 
+        if (window.__plumX && window.__plumX.widgets) {
+            window.__plumX.widgets.init();
+        }
+
         // Hide items that don't match filter
         //Array.from(section.querySelectorAll(".paper")).forEach(item => {
         //    if (!renderedPapers.includes(item)) item.style.display = "none";
@@ -197,10 +201,6 @@ window.addEventListener('DOMContentLoaded', event => {
         .then(data => {
             setupPaginationWithFilter(data.journalPapers, "journals", "journal-pagination", "journal-items-per-page", "journal-filter");
             setupPaginationWithFilter(data.conferencePapers, "conferences", "conference-pagination", "conference-items-per-page", "conference-filter");
-
-            if (window.__plumX && window.__plumX.widgets) {
-                window.__plumX.widgets.init();
-            }
         })
         .catch(error => console.error('Failed to load JSON', error));
 });
