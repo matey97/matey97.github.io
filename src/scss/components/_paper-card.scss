@@ -7,7 +7,9 @@ $journal-color: #f5d55f;
 }
 
 .paper {
-    display: flex;
+    //display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 5px;
     border-style: solid;
     border-width: 2px;
@@ -47,13 +49,12 @@ $journal-color: #f5d55f;
 }
 
 .paper-info {
-    flex: 90%;
+    //flex: 80%;
 }
 
 .paper-metrics {
     margin-top: 1em;
     display: flex;
-    flex: 10%;
     justify-content: center;
     align-items: center;
 }
