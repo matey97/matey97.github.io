@@ -1,0 +1,144 @@
+{
+    "journalPapers": [
+        {
+            "title": "Implementing and evaluating the Timed Up and Go test automation using smartphones and smartwatches",
+            "authors": "Miguel Matey-Sanz, Alberto González-Pérez, Sven Casteleyn, Carlos Granell",
+            "journal": "IEEE Journal of Biomedical and Health Informatics, 2024",
+            "tier": "Q1",
+            "tierString": "JCR2023 Q1 - IF 6.7",
+            "doi": "10.1109/JBHI.2024.3456169",
+            "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10669777"
+        },
+        {
+            "title": "Towards a self-applied, mobile-based geolocated exposure therapy software for anxiety disorders: SyMptOMS-ET app",
+            "authors": "Alberto González-Pérez, Laura Díaz-Sanahuja, Miguel Matey-Sanz, Jorge Osma, Carlos Granell, Juana Bretón-López, Sven Casteleyn",
+            "journal": "Digital Health, 2024",
+            "tier": "Q2",
+            "tierString": "JCR2023 Q2 - IF 2.9",
+            "doi": "10.1177/20552076241283942",
+            "pdf": "https://journals.sagepub.com/doi/epub/10.1177/20552076241283942"
+        },
+        {
+            "title": "Dataset of inertial measurements of smartphones and smartwatches for human activity recognition",
+            "authors": "Miguel Matey-Sanz, Sven Casteleyn, Carlos Granell",
+            "journal": "Data in Brief, 2023",
+            "tier": "Q3",
+            "tierString": "JCR2022 Q3 - IF 1.2",
+            "doi": "10.1016/j.dib.2023.109809",
+            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/205731/matey_2023.pdf?sequence=1"
+        },
+        {
+            "title": "AwarNS: A framework for developing context-aware reactive mobile applications for health and mental health",
+            "authors": "Alberto González-Pérez, Miguel Matey-Sanz, Carlos Granell, Laura Díaz-Sanahuja, Juana Bretón-López, Sven Casteleyn",
+            "journal": "Journal of Biomedical Informatics, 2023",
+            "tier": "Q2",
+            "tierString": "JCR2023 Q2 - IF 4",
+            "doi": "10.1016/j.jbi.2023.104359",
+            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/202645/gonzalez_2023_awar.pdf?sequence=1"
+        },
+        {
+            "title": "Using mobile devices as scientific measurement instruments: reliable android task scheduling",
+            "authors": "Alberto González-Pérez, Miguel Matey-Sanz, Carlos Granell, Sven Casteleyn",
+            "journal": "Pervasive and Mobile Computing, 2022",
+            "tier": "Q2",
+            "tierString": "JCR2022 Q2 - IF 4.3",
+            "doi": "10.1016/j.jbi.2023.104359",
+            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/196827/79792_GonzalezPerezA_2022.pdf?sequence=1"
+        },
+        {
+            "title": "A comprehensive and reproducible comparison of clustering and optimization rules in wi-fi fingerprinting",
+            "authors": "Joaquín Torres-Sospedra, Philipp Richter, Adriano Moreira, Germán M Mendoza-Silva, Elena Simona Lohan, Sergio Trilles, Miguel Matey-Sanz, Joaquín Huerta",
+            "journal": "IEEE Transactions on Mobile Computing, 2020",
+            "tier": "Q1",
+            "tierString": "JCR2022 Q1 - IF 7.9",
+            "doi": "10.1109/TMC.2020.3017176",
+            "pdf": "https://trepo.tuni.fi/bitstream/handle/10024/127659/A_Comprehensive_and_Reproducible_Comparison_2020.pdf?sequence=1"
+        },
+        {
+            "title": "BLE RSS measurements dataset for research on accurate indoor positioning",
+            "authors": "Germán Martín Mendoza-Silva, Miguel Matey-Sanz, Joaquín Torres-Sospedra, Joaquín Huerta",
+            "journal": "MDPI Data, 2019",
+            "tier": "Q2",
+            "tierString": "SJR2019 Q2 - IF 2.6",
+            "doi": "10.3390/data4010012",
+            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/182509/Mendoza_2019_BLE.pdf?sequence=1"
+        }
+    ],
+    "conferencePapers": [
+        {
+            "title": "Comparative Analysis of Indoor Positioning Approaches with Wi-Fi RTT from Android Devices",
+            "authors": "Miguel Matey-Sanz, Joaquín Torres-Sospedra.",
+            "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2025",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": null,
+            "pdf": null,
+            "note": "To be presented"
+        },
+        {
+            "title": "Evaluating Wi-Fi Round Trip Time for Accurate Indoor Positioning with Android Smartphones",
+            "authors": "David Pérez-Senosiain, Miguel Matey-Sanz, Joaquín Torres-Sospedra.",
+            "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2025",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": null,
+            "pdf": null,
+            "note": "To be presented"
+        },
+        {
+            "title": "Modular Fingerprinting and Deep Learning: A New Training Approach",
+            "authors": "Darwin Quezada-Gaibor, Miguel Matey-Sanz, Joaquín Huerta, Joaquín Torres-Sospedra",
+            "journal": "IEEE Applied Sensing Conference, APSCON 2025",
+            "tier": null,
+            "tierString": null,
+            "doi": null,
+            "pdf": null,
+            "note": "To be published"
+        },
+        {
+            "title": "Feasibility Analysis of Self-oriented BLE Anchors Powered by NEMA Motors for DoA-based Indoor Positioning",
+            "authors": "Teodor Constantin Din, Miguel Matey-Sanz, Adrián Bautista, Sergio Trilles, Joaquín Torres-Sospedra",
+            "journal": "International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2024",
+            "tier": null,
+            "tierString": null,
+            "doi": null,
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11048828"
+        },
+        {
+            "title": "Analysis and impact of training set size in cross-subject human activity recognition",
+            "authors": "Miguel Matey-Sanz, Joaquín Torres-Sospedra, Alberto González-Pérez, Sven Casteleyn, Carlos Granell",
+            "journal": "International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2024",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": "10.1007/978-3-031-49018-7_28",
+            "pdf": "https://drive.google.com/file/d/1iJsThC4D7vnt5Qc29QWqekw2BoTFhuiu/view"
+        },
+        {
+            "title": "Temporal stability on human activity recognition based on Wi-Fi CSI",
+            "authors": "Miguel Matey-Sanz, Joaquín Torres-Sospedra, Adriano Moreira",
+            "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2023",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": "10.1109/IPIN57070.2023.10332214",
+            "pdf": "https://drive.google.com/file/d/1dOpwIFvaxRfYzZi2GdeYq1UiWbQYApu9/view"
+        },
+        {
+            "title": "Instrumented timed up and go test using inertial sensors from consumer wearable devices",
+            "authors": "Miguel Matey-Sanz, Alberto González-Pérez, Sven Casteleyn, Carlos Granell",
+            "journal": "International Conference on Artificial Intelligence in Medicine, AIME 2022",
+            "tier": "B",
+            "tierString": "ICORE B",
+            "doi": "10.1007/978-3-031-09342-5_14",
+            "pdf": "https://drive.google.com/file/d/14jlR-Iwxcjm_7aInISR6I1KBI1anP35H/view"
+        },
+        {
+            "title": "Exploiting different combinations of complementary sensor’s data for fingerprint-based indoor positioning in industrial environments",
+            "authors": "Joaquín Torres-Sospedra, Adriano Moreira, Germán M Mendoza-Silva, Maria João Nicolau, Miguel Matey-Sanz, Ivo Silva, Joaquín Huerta, Cristiano Pendão",
+            "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2019",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": "10.1109/IPIN.2019.8911758",
+            "pdf": null
+        }
+    ]
+}

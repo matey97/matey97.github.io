@@ -2,8 +2,8 @@
 // Scripts
 //
 
-function setupPaginationWithFilter(sectionId, paginationId, dropdownId, filterId) {
-    const container = document.getElementById(sectionId);
+function setupPaginationWithFilter(papers, sectionId, paginationId, dropdownId, filterId) {
+    const section = document.getElementById(sectionId);
     const pagination = document.getElementById(paginationId);
     const perPageDropdown = document.getElementById(dropdownId);
     const filterDropdown = document.getElementById(filterId);
@@ -12,27 +12,101 @@ function setupPaginationWithFilter(sectionId, paginationId, dropdownId, filterId
 
     function getFilteredItems() {
         const filterValue = filterDropdown.value;
-        const allItems = Array.from(container.querySelectorAll(".paper"));
         return filterValue === "all"
-            ? allItems
-            : allItems.filter(item => item.getAttribute("data-rank") === filterValue);
+            ? papers
+            : papers.filter(paper => paper.tier === filterValue);
+    }
+
+    function renderPapers(papers) {
+        const paperList = document.getElementById(sectionId === "journals" ? "paper-list" : "conference-list");
+        const paperDivs = papers.map(paper => {
+            const paperDiv = document.createElement("div");
+            paperDiv.className = "paper";
+            //paperDiv.setAttribute("data-rank", paper.tier);
+
+            const container = document.createElement("div");
+            container.className = "row justify-content-center";
+
+            const paperInfo = document.createElement("div");
+            paperInfo.className = "paper-info col-12 col-md-10";
+            const paperType = document.createElement("span");
+            paperType.className = `paper-type ${sectionId === "journals" ? "journal" : "conference"}`;
+            const title = document.createElement("h4");
+            title.textContent = paper.title;
+
+            if (paper.tier) {
+                const badge = document.createElement("span");
+                badge.className = `badge ${classFromTier(paper.tier)}`;
+                badge.textContent = paper.tierString;
+                title.appendChild(badge);
+            }
+
+            if (paper.doi) {
+                const doiLink = document.createElement("a");
+                doiLink.setAttribute("href", "https://doi.org/"+paper.doi);
+                doiLink.setAttribute("target", "_blank");
+                const doiIcon = document.createElement("img");
+                doiIcon.className = "doi";
+                doiIcon.setAttribute("src", "assets/img/doi.png");
+                doiLink.appendChild(doiIcon);
+                title.appendChild(doiLink);
+            }
+
+            if (paper.pdf) {
+                const pdfLink = document.createElement("a");
+                pdfLink.setAttribute("href", paper.pdf);
+                pdfLink.setAttribute("target", "_blank");
+                const pdfIcon = document.createElement("img");
+                pdfIcon.className = "pdf";
+                pdfIcon.setAttribute("src", "assets/img/file-pdf-regular.svg");
+                pdfLink.appendChild(pdfIcon);
+                title.appendChild(pdfLink);
+            }
+
+            const authors = document.createElement("h5");
+            authors.className = "light";
+            authors.textContent = paper.authors;
+
+            const journal = document.createElement("h5");
+            journal.className = "light";
+            journal.textContent = paper.journal;
+            journal.style.fontStyle = "italic";
+            paperInfo.appendChild(paperType);
+            paperInfo.appendChild(title);
+            paperInfo.appendChild(authors);
+            paperInfo.appendChild(journal);
+
+            const paperMetrics = document.createElement("div");
+            paperMetrics.className = "paper-metrics col-12 col-md-2";
+            const link = document.createElement("a");
+            link.className = "plumx-plum-print-popup";
+            link.setAttribute("href", "https://plu.mx/plum/a/?doi="+paper.doi);
+            paperMetrics.appendChild(link);
+            container.appendChild(paperInfo);
+            container.appendChild(paperMetrics);
+            paperDiv.appendChild(container);
+            return paperDiv;
+        });
+        paperList.replaceChildren(...paperDivs);
+        return paperDivs;
     }
 
     function renderPage(page) {
         currentPage = page;
         const itemsPerPage = parseInt(perPageDropdown.value);
         const filteredItems = getFilteredItems();
+        renderedPapers = renderPapers(filteredItems);
         const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
 
-        filteredItems.forEach((item, index) => {
+        renderedPapers.forEach((item, index) => {
             item.style.display = (index >= (page - 1) * itemsPerPage && index < page * itemsPerPage)
                 ? "flex" : "none";
         });
 
         // Hide items that don't match filter
-        Array.from(container.querySelectorAll(".paper")).forEach(item => {
-            if (!filteredItems.includes(item)) item.style.display = "none";
-        });
+        //Array.from(section.querySelectorAll(".paper")).forEach(item => {
+        //    if (!renderedPapers.includes(item)) item.style.display = "none";
+        //});
 
         // Pagination buttons
         pagination.innerHTML = "";
@@ -74,6 +148,24 @@ function setupPaginationWithFilter(sectionId, paginationId, dropdownId, filterId
     renderPage(1);
 }
 
+function classFromTier(tier) {
+    switch (tier) {
+        case "Q1" || "A":
+            return "rank-a";
+        case "Q2" || "B":
+            return "rank-b";
+        case "Q3" || "C":
+            return "rank-c";
+        case "A":
+            return "rank-a";
+        case "B":
+            return "rank-b";
+        case "C":
+            return "rank-c";
+    }
+}
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -98,6 +190,17 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    setupPaginationWithFilter("journals", "journal-pagination", "journal-items-per-page", "journal-filter");
-    setupPaginationWithFilter("conferences", "conference-pagination", "conference-items-per-page", "conference-filter");
+    //setupPaginationWithFilter("journals", "journal-pagination", "journal-items-per-page", "journal-filter");
+    //setupPaginationWithFilter("conferences", "conference-pagination", "conference-items-per-page", "conference-filter");
+    fetch('/papers.json')
+        .then(response => response.json())
+        .then(data => {
+            setupPaginationWithFilter(data.journalPapers, "journals", "journal-pagination", "journal-items-per-page", "journal-filter");
+            setupPaginationWithFilter(data.conferencePapers, "conferences", "conference-pagination", "conference-items-per-page", "conference-filter");
+
+            if (window.__plumX && window.__plumX.widgets) {
+                window.__plumX.widgets.init();
+            }
+        })
+        .catch(error => console.error('Failed to load JSON', error));
 });
