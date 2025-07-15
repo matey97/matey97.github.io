@@ -25,7 +25,7 @@
             "tier": "Q3",
             "tierString": "JCR2022 Q3 - IF 1.2",
             "doi": "10.1016/j.dib.2023.109809",
-            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/205731/matey_2023.pdf?sequence=1"
+            "pdf": "https://www.sciencedirect.com/science/article/pii/S2352340923008715"
         },
         {
             "title": "AwarNS: A framework for developing context-aware reactive mobile applications for health and mental health",
@@ -34,7 +34,7 @@
             "tier": "Q2",
             "tierString": "JCR2023 Q2 - IF 4",
             "doi": "10.1016/j.jbi.2023.104359",
-            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/202645/gonzalez_2023_awar.pdf?sequence=1"
+            "pdf": "https://www.sciencedirect.com/science/article/pii/S1532046423000801"
         },
         {
             "title": "Using mobile devices as scientific measurement instruments: reliable android task scheduling",
@@ -42,8 +42,8 @@
             "journal": "Pervasive and Mobile Computing, 2022",
             "tier": "Q2",
             "tierString": "JCR2022 Q2 - IF 4.3",
-            "doi": "10.1016/j.jbi.2023.104359",
-            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/196827/79792_GonzalezPerezA_2022.pdf?sequence=1"
+            "doi": "10.1016/j.pmcj.2022.101550",
+            "pdf": "https://www.sciencedirect.com/science/article/pii/S1574119222000074"
         },
         {
             "title": "A comprehensive and reproducible comparison of clustering and optimization rules in wi-fi fingerprinting",
@@ -52,7 +52,7 @@
             "tier": "Q1",
             "tierString": "JCR2022 Q1 - IF 7.9",
             "doi": "10.1109/TMC.2020.3017176",
-            "pdf": "https://trepo.tuni.fi/bitstream/handle/10024/127659/A_Comprehensive_and_Reproducible_Comparison_2020.pdf?sequence=1"
+            "pdf": "https://trepo.tuni.fi/bitstream/handle/10024/216569/A_Comprehensive_and_Reproducible_Comparison_2020.pdf?sequence=1"
         },
         {
             "title": "BLE RSS measurements dataset for research on accurate indoor positioning",
@@ -61,7 +61,7 @@
             "tier": "Q2",
             "tierString": "SJR2019 Q2 - IF 2.6",
             "doi": "10.3390/data4010012",
-            "pdf": "https://repositori.uji.es/xmlui/bitstream/handle/10234/182509/Mendoza_2019_BLE.pdf?sequence=1"
+            "pdf": "https://www.mdpi.com/2306-5729/4/1/12"
         }
     ],
     "conferencePapers": [
