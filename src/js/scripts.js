@@ -71,6 +71,17 @@ function setupPaginationWithFilter(papers, sectionId, paginationId, dropdownId, 
             journal.className = "light";
             journal.textContent = paper.journal;
             journal.style.fontStyle = "italic";
+
+            if (paper.note) {
+                const note = document.createElement("span");
+                note.className = "light";
+                note.textContent = `[${paper.note}]`;
+                note.style.paddingLeft = "0.7rem";
+                note.style.fontStyle = "normal";
+                note.style.fontWeight = "bold";
+                journal.appendChild(note);
+            }
+
             paperInfo.appendChild(paperType);
             paperInfo.appendChild(title);
             paperInfo.appendChild(authors);
