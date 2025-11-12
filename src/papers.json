@@ -13,8 +13,8 @@
             "title": "Towards a self-applied, mobile-based geolocated exposure therapy software for anxiety disorders: SyMptOMS-ET app",
             "authors": "Alberto González-Pérez, Laura Díaz-Sanahuja, Miguel Matey-Sanz, Jorge Osma, Carlos Granell, Juana Bretón-López, Sven Casteleyn",
             "journal": "Digital Health, 2024",
-            "tier": "Q2",
-            "tierString": "JCR2023 Q2 - IF 2.9",
+            "tier": "Q1",
+            "tierString": "JCR2023 Q1 - IF 3.3",
             "doi": "10.1177/20552076241283942",
             "pdf": "https://journals.sagepub.com/doi/epub/10.1177/20552076241283942"
         },
@@ -66,14 +66,24 @@
     ],
     "conferencePapers": [
         {
+            "title": "Fingerprinting with Fine Time Measurements: from RSS to RTT",
+            "authors": "Miguel Matey-Sanz; José Manuel Claver; Esther Dura; Santiago Felici-Castell; Raúl Montoliu; Antoni Pérez-Navarro; Juan José Perez-Solano; Antonio Soriano; Sergi Trilles; Joaquín Torres-Sospedra.",
+            "journal": "International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2025",
+            "tier": null,
+            "tierString": null,
+            "doi": null,
+            "pdf": null,
+            "note": "To be published"
+        },
+        {
             "title": "Comparative Analysis of Indoor Positioning Approaches with Wi-Fi RTT from Android Devices",
             "authors": "Miguel Matey-Sanz, Joaquín Torres-Sospedra.",
             "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2025",
             "tier": "C",
             "tierString": "ICORE C",
-            "doi": null,
-            "pdf": null,
-            "note": "To be presented"
+            "doi": "10.1109/IPIN66788.2025.11212914",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11212914",
+            "award": "Best Paper Award Runner's Up"
         },
         {
             "title": "Evaluating Wi-Fi Round Trip Time for Accurate Indoor Positioning with Android Smartphones",
@@ -81,9 +91,8 @@
             "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2025",
             "tier": "C",
             "tierString": "ICORE C",
-            "doi": null,
-            "pdf": null,
-            "note": "To be presented"
+            "doi": "10.1109/IPIN66788.2025.11212978",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11212978"
         },
         {
             "title": "Modular Fingerprinting and Deep Learning: A New Training Approach",
@@ -91,9 +100,9 @@
             "journal": "IEEE Applied Sensing Conference, APSCON 2025",
             "tier": null,
             "tierString": null,
-            "doi": null,
-            "pdf": null,
-            "note": "To be published"
+            "doi": "10.1109/APSCON63569.2025.11144084",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11144084",
+            "award": "Best Paper Award Runner-Up"
         },
         {
             "title": "Feasibility Analysis of Self-oriented BLE Anchors Powered by NEMA Motors for DoA-based Indoor Positioning",

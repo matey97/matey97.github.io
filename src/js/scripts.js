@@ -87,6 +87,21 @@ function setupPaginationWithFilter(papers, sectionId, paginationId, dropdownId, 
             paperInfo.appendChild(authors);
             paperInfo.appendChild(journal);
 
+            if (paper.award) {
+                const award = document.createElement("span");
+                const awardIcon = document.createElement("i");
+                awardIcon.className = "fas fa-trophy text-warning";
+                award.appendChild(awardIcon);
+                const awardDescription = document.createElement("span");
+                awardDescription.textContent = paper.award;
+                awardDescription.style.paddingLeft = "0.7rem";
+                awardDescription.style.fontWeight = "bold";
+                award.appendChild(awardDescription);
+                //award.style.paddingLeft = "0.7rem";
+
+                paperInfo.appendChild(award);
+            }
+
             const paperMetrics = document.createElement("div");
             paperMetrics.className = "paper-metrics col-12 col-md-2";
             const link = document.createElement("a");
