@@ -71,9 +71,8 @@
             "journal": "International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2025",
             "tier": null,
             "tierString": null,
-            "doi": null,
-            "pdf": null,
-            "note": "To be published"
+            "doi": "10.1109/ICUMT67815.2025.11268646",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11268646"
         },
         {
             "title": "Comparative Analysis of Indoor Positioning Approaches with Wi-Fi RTT from Android Devices",
@@ -116,7 +115,7 @@
         {
             "title": "Analysis and impact of training set size in cross-subject human activity recognition",
             "authors": "Miguel Matey-Sanz, Joaquín Torres-Sospedra, Alberto González-Pérez, Sven Casteleyn, Carlos Granell",
-            "journal": "International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, ICUMT 2024",
+            "journal": "IberoAmerican Congress on Pattern Recognition, CIARP 2023",
             "tier": "C",
             "tierString": "ICORE C",
             "doi": "10.1007/978-3-031-49018-7_28",
