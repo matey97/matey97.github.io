@@ -186,6 +186,8 @@ function classFromTier(tier) {
             return "rank-b";
         case "Q3" || "C":
             return "rank-c";
+        case "Q4":
+            return "rank-c";
         case "A":
             return "rank-a";
         case "B":

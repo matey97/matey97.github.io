@@ -1,6 +1,24 @@
 {
     "journalPapers": [
         {
+            "title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures",
+            "authors": "Carlos Granell, Frank O. Ostermann, Daniel Nüst, Peter Kedron, Eftychia Koukouraki, Miguel Matey-Sanz, Rémy Decoupes, Sergio Trilles, Anita Graser, Tom Niers",
+            "journal": "Journal of Spatial Information Science, 2026",
+            "tier": "Q2",
+            "tierString": "JCR2025 Q2 – IF 2.3",
+            "doi": "10.5311/JOSIS.2026.32.591",
+            "pdf": "https://josis.org/index.php/josis/article/view/591/214"
+        },
+        {
+            "title": "Responsible Integration of Generative AI in Software Engineering Education",
+            "authors": "Miguel Matey-Sanz, Carlos Granell, Ramón A. Mollineda",
+            "journal": "IEEE Revista Iberoamericana de Tecnologias del Aprendizaje, 2026",
+            "tier": "Q4",
+            "tierString": "JCR2025 Q4 – IF 0.9",
+            "doi": "10.1109/RITA.2026.3694480",
+            "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11523460"
+        },
+        {
             "title": "Implementing and evaluating the Timed Up and Go test automation using smartphones and smartwatches",
             "authors": "Miguel Matey-Sanz, Alberto González-Pérez, Sven Casteleyn, Carlos Granell",
             "journal": "IEEE Journal of Biomedical and Health Informatics, 2024",
@@ -65,6 +83,74 @@
         }
     ],
     "conferencePapers": [
+        {
+            "title": "Wi-Fi RTT and RSSI as Positioning Observables Across Multiple Estimation Methods",
+            "authors": "Miguel Matey-Sanz, Ignacio Miralles, Raul Montoliu, Antoni Perez-Navarro and Joaquín Torres-Sospedra",
+            "journal": "IEEE Navigation Conference, NAVICON 2026",
+            "tier": null,
+            "tierString": null,
+            "doi": null,
+            "pdf": null,
+            "note": "To be presented"
+        },
+        {
+            "title": "A Comparative Study of RTT and RSSI Stability for Wi-Fi-based Indoor Localization",
+            "authors": "Raul Montoliu, Paolo Barsocchi, Francesco Furfari, Giuseppe Lombardi, Antonino Crivello, Miguel Matey-Sanz, Antoni Perez-Navarro and Joaquín Torres-Sospedra",
+            "journal": "IEEE Navigation Conference, NAVICON 2026",
+            "tier": null,
+            "tierString": null,
+            "doi": null,
+            "pdf": null,
+            "note": "To be presented"
+        },
+        {
+            "title": "ROBOSAT: Towards an Integrated Robotic Platform for Large-scale Multimodal Wilderness Navigation",
+            "authors": "Miguel Matey-Sanz, Yuyan Wu, Yelyzaveta Pervysheva, Muhammad Safi, Andrei Cramariuc, Irina Mocanu, Oana Cramariuc, Jari Nurmi, Elena Simona Lohan, Jose Manuel Claver, Esther Dura and Joaquín Torres-Sospedra",
+            "journal": "Proceedings of Work-in-Progress in Hardware and Software for Location Computation, WIPHAL 2026",
+            "tier": null,
+            "tierString": null,
+            "doi": null,
+            "pdf": null,
+            "note": "To be published"
+        },
+        {
+            "title": "UVIndoorLoc-RTT&RSSI: A New Multi-Scenario Dataset for Wi-Fi Fine Time Measurements Indoor Localization Problems",
+            "authors": "Miguel Matey-Sanz, Sara Martín Frechina, Juan Carlos Santamaria-Pedrón, Ignacio Miralles, Esther Dura, José Manuel Claver Iborra, Raul Montoliu, Antoni Perez-Navarro and Joaquín Torres-Sospedra",
+            "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2026",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": null,
+            "pdf": null,
+            "note": "To be published"
+        },
+        {
+            "title": "Evaluation of Bluetooth 5.1 AoA Topologies for Triangulation in Complex Indoor Environments",
+            "authors": "Sara Martín-Frechina, Esther Dura, Juan Carlos Santamaria-Pedrón, Miguel Matey-Sanz, Joaquín Torres-Sospedra",
+            "journal": "International Conference on Indoor Positioning and Indoor Navigation, IPIN 2026",
+            "tier": "C",
+            "tierString": "ICORE C",
+            "doi": null,
+            "pdf": null,
+            "note": "To be published"
+        }, 
+        {
+            "title": "Work-in-Progress on Federated and Cluster-Aware Wi-Fi Fingerprinting for Indoor Localisation",
+            "authors": "Celia Saenz-Martinez, Joaquín Torres-Sospedra, Miguel Matey-Sanz, Sergio Trilles",
+            "journal": "International Conference on Federated Learning and Intelligent Computing Systems (FLICS), 2026",
+            "tier": null,
+            "tierString": null,
+            "doi": "10.1109/FLICS70075.2026.11621896",
+            "pdf": null
+        },
+        {
+            "title": "Smart Sensing Framework: A Custom Beacon Architecture for Mobile Data Logging",
+            "authors": "David Díaz-Jiménez, José L. López-Ruiz, Joaquín Torres-Sospedra, Miguel Matey-Sanz, Macarena Espinilla",
+            "journal": "International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI), 2025",
+            "tier": null,
+            "tierString": null,
+            "doi": "10.1007/978-3-032-16992-1_42",
+            "pdf": null
+        },
         {
             "title": "Fingerprinting with Fine Time Measurements: from RSS to RTT",
             "authors": "Miguel Matey-Sanz; José Manuel Claver; Esther Dura; Santiago Felici-Castell; Raúl Montoliu; Antoni Pérez-Navarro; Juan José Perez-Solano; Antonio Soriano; Sergi Trilles; Joaquín Torres-Sospedra.",
